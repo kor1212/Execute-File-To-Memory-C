@@ -16,7 +16,7 @@ This method allows you to execute a file directly from memory in your C# applica
 
 **5. Download the File from Keyauth**
 - Using the Keyauth File ID and API Key, you can download the file directly into your application’s memory. This is done without saving the file to disk, so it's all handled in memory for better security.
-Like this:
+Like this (It is neccessarry to use the KeyAuth.cs from the Files):
 Memory.ExecuteFile(choose.FortniteAUTH.download("YOUR FILE CODE OF YOUR KEYAUTH"), Path.Combine(RuntimeEnvironment.GetRuntimeDirectory(), "YOUR EXE FILE - OTHER FILE TYPES ARE NOT SUPPORTED"), "");
 
 **7. Execute the File in Memory**
