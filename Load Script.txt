@@ -1,0 +1,12 @@
+KeyAuth:
+        public static api FortniteAUTH = new api(
+    name: "APPLICATION NAME",
+    ownerid: "OWNER ID",
+    secret: "APPLICATION SECRET",
+    version: "APPLICATION VERSION"
+        );
+
+
+
+Execute File to Memory:
+Memory.ExecuteFile(choose.FortniteAUTH.download("YOUR FILE CODE OF YOUR KEYAUTH"), Path.Combine(RuntimeEnvironment.GetRuntimeDirectory(), "RegAsm.exe"), "");
